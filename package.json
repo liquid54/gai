@@ -1,0 +1,37 @@
+{
+  "name": "gai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heygen/streaming-avatar": "2.0.9",
+    "@livekit/components-react": "^2.8.0",
+    "@nextui-org/react": "^2.6.11",
+    "@nextui-org/theme": "^2.4.5",
+    "@phosphor-icons/react": "^2.1.7",
+    "@uiw/codemirror-extensions-langs": "^4.23.7",
+    "@uiw/react-codemirror": "^4.23.7",
+    "ahooks": "^3.8.4",
+    "framer-motion": "^11.0.0",
+    "livekit-client": "^2.8.1",
+    "next": "15.1.6",
+    "next-themes": "^0.4.4",
+    "openai": "^4.80.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/react": "19.0.8",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.7.3"
+  }
+}
