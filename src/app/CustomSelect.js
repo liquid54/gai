@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export const CustomSelect = ({ label, value, onChange, placeholder, options, icon: Icon }) => {
+const CustomSelect = ({ label, value, onChange, placeholder, options, icon: Icon }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -35,3 +35,5 @@ export const CustomSelect = ({ label, value, onChange, placeholder, options, ico
         </div>
     );
 };
+
+export default CustomSelect;

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export const useLogger = () => {
+const useLogger = () => {
     const [logs, setLogs] = useState([]);
 
     const addLog = (message) => {
@@ -10,3 +10,5 @@ export const useLogger = () => {
 
     return { logs, addLog };
 };
+
+export default useLogger;
